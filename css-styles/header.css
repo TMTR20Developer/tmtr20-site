@@ -1,0 +1,49 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 50px;
+}
+
+.logo-div{
+  margin-left: 30px;
+}
+.logo-image{
+  width: 83px;
+}
+
+.navigation{
+  justify-content: space-between;
+}
+.nav-button{
+  background-color: rgba(44, 62, 80, 0);
+  color: rgb(236, 240, 241);
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 0.2s;
+}
+.button-selected{
+  color: var(--accent-color);
+  font-size: 21px;
+  transition: all 0.2s;
+}
+.contact-button{
+  border: 1px solid var(--secondary-color);
+  border-radius: 20px;
+  background-color: transparent;
+  color: var(--secondary-color);
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px 15px;
+  transition: all 0.2s;
+}
+.contact-button:hover{
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}

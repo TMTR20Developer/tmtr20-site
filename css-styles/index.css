@@ -1,0 +1,66 @@
+.hero-section{
+  display: flex;
+}
+.hero-section-image-div{
+  display: flex;
+  height: var(--hero-height);
+  width: 100vw;
+}
+.hero-section-image{
+  position: relative;
+  height: var(--hero-height);
+  object-fit: cover;
+  width: 100vw;
+  filter: brightness(40%);
+}
+
+.hero-section-text{
+  position: absolute;
+  top: var(--hero-text-height);
+  padding: 10px 30px;
+}
+.hero-text-1{
+  font-size: 35px;
+  margin: 0px;
+}
+.hero-text-2{
+  font-size: 20px;
+  width: 40vw;
+}
+.about-us-div{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  padding: 0px 3vw;
+}
+.about-us-text{
+  background-color: transparent;
+  color: var(--secondary-color);
+  font-size: 33px;
+  font-weight: bold;
+  border-radius: 20px;
+  margin: 0px;
+  cursor: default;
+}
+.about-us-text-2{
+  width: 90vw;
+  font-size: 22px;
+  margin-bottom: 5vh;
+}
+
+.learn-more-button{
+  background-color: transparent;
+  color: var(--secondary-color);
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px 20px;
+  border-style: solid;
+  border-color: var(--secondary-color);
+  border-radius: 20px;
+  transition: background-color 0.5s ;
+}
+.learn-more-button:hover{
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
